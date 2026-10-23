@@ -1,0 +1,11 @@
+:root {
+  --bg: #858585;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.decor {
+  position: absolute;
+}
