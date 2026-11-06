@@ -1,4 +1,16 @@
 .scene {
-    height: 300px;
-    width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    height: fit-content;
+    
+    .decor {
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+    }
+
+    .element_decor {
+        position: absolute;
+    }
 }

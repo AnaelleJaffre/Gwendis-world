@@ -4,8 +4,6 @@
 
 body {
   background-color: var(--bg);
-}
-
-.decor {
-  position: absolute;
+  margin-top: 10vh;
+  justify-items: center;
 }
