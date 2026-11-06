@@ -1,6 +1,6 @@
 import './style.css'
-import { Arbre } from './components/Arbre/Arbre'
+import { Scene } from './components/Scene/Scene'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.append(Arbre(200, 300), Arbre(900, 300))
+app.append(Scene("Ceci est une scène, bon ya rien mais... ouai."))
