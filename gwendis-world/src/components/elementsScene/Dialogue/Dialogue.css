@@ -3,8 +3,9 @@
 }
 
 .dialogue_boutons {
-  display: flex;
-  justify-content: center;
-  gap: 4vw;
-  flex-wrap: wrap;
+    margin: 4vh auto;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    flex-wrap: wrap;
 }

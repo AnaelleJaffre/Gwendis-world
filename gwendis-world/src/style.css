@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Redaction';
+  src: url(./assets/fonts/Redaction70-Bold.ttf);
+}
+
 :root {
   --bg: #858585;
 }
@@ -6,4 +11,10 @@ body {
   background-color: var(--bg);
   margin-top: 10vh;
   justify-items: center;
+  font-family: 'Redaction';
+  color: rgb(53, 53, 53);
+}
+
+::selection {
+  background-color: #edbfbf42;
 }
