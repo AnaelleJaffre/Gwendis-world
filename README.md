@@ -1,6 +1,8 @@
 # Gwendi's World
 Un monde où Gwendi (vous) peut vivre, malgré les bizarreries de cet univers.
 
+Lien du jeu : **[Gwendi's World](https://anaellejaffre.github.io/Gwendis-world/)**
+
 ## Cadre
 
 - **Stack** | Vite (NodeJS), Typescript
