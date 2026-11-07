@@ -1,1 +1,0 @@
-:root{--bg:#858585}body{background-color:var(--bg);justify-items:center;margin-top:10vh}.scene{border:1px solid #ffffff1a;border-radius:5px;height:fit-content}.scene .decor{border:1px solid #ffffff1a;border-radius:5px 5px 0 0;position:relative;overflow:hidden}.scene .element_decor{position:absolute}
