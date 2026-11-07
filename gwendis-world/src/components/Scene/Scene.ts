@@ -1,10 +1,9 @@
+import { composants } from '../../composants'
+import type { Choix, DonneesScene } from '../../types'
 import './Scene.css'
 
-type ElementDecor = [composant: (x: number, y:number) => HTMLImageElement, x: number, y: number]
-
 export function Scene(
-    description: string = "...",
-    elements: ElementDecor[] = [],
+    {elements, dialogue, debut}: DonneesScene,
     height: number = 300,
     width: number = 500):
     HTMLDivElement {
@@ -16,15 +15,33 @@ export function Scene(
     const texte = document.createElement('p')
     texte.className = 'scene_description'
     texte.style.textAlign = 'center'
-    texte.textContent = description
     
     const decor = document.createElement('div')
     decor.className = 'decor'
     decor.style.height = `${height}px`
     decor.style.width = `100%`
     decor.style.margin = 'auto'
-    decor.append(...elements.map(([composant, x, y]) => composant(x, y)))
+    decor.append(...elements.map(([nom, x, y]) => composants[nom](x, y)))
 
-    scene.append(decor, texte)
+    const boutons = document.createElement('div')
+
+    function afficher(id: string) {
+        const phrase = dialogue[id]
+        texte.textContent = phrase.texte
+        boutons.replaceChildren()
+
+        const options: Choix[] = phrase.choix
+        ?? (phrase.suite? [{ texte: 'Continuer', suite: phrase.suite}] : [])
+
+        for (const option of options) {
+            const bouton = document.createElement('button')
+            bouton.textContent = option.texte
+            bouton.onclick = () => afficher(option.suite)
+            boutons.append(bouton)
+        }
+    }
+
+    afficher(debut)
+    scene.append(decor, texte, boutons)
     return scene
 }

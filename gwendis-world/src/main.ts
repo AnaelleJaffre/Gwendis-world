@@ -1,9 +1,24 @@
 import './style.css'
-import { Arbre } from "./components/Arbre/Arbre"
 import { Scene } from './components/Scene/Scene'
-import { Gwendi } from './components/Gwendi/Gwendi'
+import type { DonneesScene } from './types'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.append(Scene("Salut ! Vous, c'est Gwendi. Vous allez bien, Gwendi ?", [[Arbre, 50, 30], [Arbre, 300, 25], [Gwendi, 200, 35]]))
-app.append(Scene("Ceci est une scène, bon ya rien mais... ouai.", [[Arbre, 50, 30], [Arbre, 300, 25], [Arbre, 80, 35]]))
+const histoire: Record<string, DonneesScene> = {
+    scene1: {
+        elements: [['arbre', 50, 30], ['arbre', 300, 25], ['gwendi', 200, 35]],
+        debut: 'debut',
+        dialogue: {
+            debut: {
+                texte: "Vous, c'est Gwendi. Bonjour, Gwendi. Vous allez bien ?",
+                choix: [
+                    {texte: "Ouai ouai", suite: "vousAllezBien"},
+                    {texte: "Non.", suite: "vousAllezPasBien"},
+                ]},
+                vousAllezBien: {texte: "Je m'en fous."},
+                vousAllezPasBien: {texte: "Super, on est deux."},
+        },
+    },
+}
+
+app.append(Scene(histoire.scene1))
