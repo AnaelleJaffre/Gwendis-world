@@ -1,0 +1,10 @@
+.dialogue_replique {
+    text-align: center;
+}
+
+.dialogue_boutons {
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  flex-wrap: wrap;
+}

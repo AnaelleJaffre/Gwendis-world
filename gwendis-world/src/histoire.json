@@ -1,0 +1,21 @@
+{
+  "scene1": {
+    "identifiantPremiereReplique": "debutHisoire",
+    "elements": [
+      { "type": "arbre", "x": 50, "y": 30 },
+      { "type": "arbre", "x": 300, "y": 25 },
+      { "type": "gwendi", "x": 200, "y": 35 }
+    ],
+    "dialogue": {
+      "debutHisoire": {
+        "texte": "Vous, c'est Gwendi. Bonjour, Gwendi. Vous allez bien ?",
+        "choix": [
+          { "texte": "Ouai ouai", "identifiantRepliqueSuivante": "vousAllezBien" },
+          { "texte": "Non.", "identifiantRepliqueSuivante": "vousAllezPasBien" }
+        ]
+      },
+      "vousAllezBien": { "texte": "Je m'en fous." },
+      "vousAllezPasBien": { "texte": "Super, on est deux." }
+    }
+  }
+}

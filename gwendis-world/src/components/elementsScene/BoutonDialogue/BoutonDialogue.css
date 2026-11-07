@@ -1,0 +1,14 @@
+.boutonDialogue {
+    padding: 1vh 2vw;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgb(69, 69, 69);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    &:hover {
+        background-color: rgb(83, 83, 83);
+    }
+}

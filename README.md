@@ -28,9 +28,9 @@ npm run deploy
 ```
 
 ## Prochaines étapes
-1. Se demander comment créer une "scène", proposer une dynamique de gameplay simple à développer en javascript par composants.
-2. Préparer un mini scénario.
-3. Mettre en place une architecture adaptée à ce que peut faire le personnage et l'accomplissement de son but.
-4. Importer une police d'écriture.
-5. Construire une page d'accueil / d'accroche.
-6. Importer un premier son de fond.
+1. Préparer un mini scénario.
+2. Mettre en place une architecture adaptée à ce que peut faire le personnage et l'accomplissement de son but.
+3. Importer une police d'écriture.
+4. Construire une page d'accueil / d'accroche.
+5. Importer un premier son de fond.
+6. Créer une interface de création d'histoire.

@@ -1,0 +1,12 @@
+.decor {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.element_decor {
+  position: absolute;
+}
