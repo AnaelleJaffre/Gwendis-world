@@ -1,0 +1,6 @@
+header {
+    display: grid;
+    justify-content: center;
+    justify-self: stretch;
+    padding: 2vh;
+}

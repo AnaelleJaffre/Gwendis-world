@@ -5,16 +5,28 @@
 
 :root {
   --bg: #858585;
+  --font-color: rgb(53, 53, 53);
 }
 
 body {
   background-color: var(--bg);
-  margin-top: 2vh;
-  justify-items: center;
+  margin: 0;
+  min-height: 100%;
   font-family: 'Redaction';
-  color: rgb(53, 53, 53);
+  color: var(--font-color);
+  
+  #app {
+    display: grid;
+    justify-items: center;
+    align-content: start;
+  }
 }
 
 ::selection {
-  background-color: #edbfbf42;
+  background-color: #edbfbf25;
+}
+
+/* Eviter le probleme du padding qui deborde */
+*, *::before, *::after {
+  box-sizing: border-box;
 }

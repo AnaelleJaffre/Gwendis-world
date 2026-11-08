@@ -1,7 +1,7 @@
 .scene {
     border-radius: 5px;
     height: fit-content;
-    margin: 30vh auto 10vh auto;
+    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     gap: 2vh;
