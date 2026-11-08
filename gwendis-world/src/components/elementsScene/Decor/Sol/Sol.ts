@@ -1,6 +1,6 @@
 import './Sol.css'
-import { Herbe } from '../Herbe/Herbe'
-import type { Densite } from '../../../../../types'
+import { Herbe } from '../../elementsDecor/objets/Herbe/Herbe'
+import type { Densite } from '../../../../types'
 
 const PROPORTION_HAUTEUR_SOL: number = 0.1
 const FACTEUR_DENSITE: Record<Densite, number> = {

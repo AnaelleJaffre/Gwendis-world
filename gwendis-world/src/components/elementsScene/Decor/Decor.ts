@@ -1,6 +1,6 @@
 import './Decor.css'
-import { composants } from '../../../composants'
-import { Sol } from '../elementsDecor/objets/Sol/Sol'
+import { composants } from '../elementsDecor/registreElementsDecor'
+import { Sol } from './Sol/Sol'
 import type { Densite, ElementDecor } from '../../../types'
 
 export function Decor(
