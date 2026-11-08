@@ -1,7 +1,7 @@
 import './Header.css'
 import { registreElementsInterface } from '../registeElementsInterface'
 
-export function Header(): HTMLElement {
+export function Header(retournerAccueil: () => void): HTMLElement {
     const header: HTMLElement = document.createElement('header')
 
     const titre: HTMLHeadingElement = document.createElement('h1')
@@ -11,6 +11,7 @@ export function Header(): HTMLElement {
     panneauGauche.className = 'panneau_gauche'
     const logoAccueil: HTMLElement = registreElementsInterface['etoile']()
     logoAccueil.className = 'logo_accueil'
+    logoAccueil.addEventListener('click', retournerAccueil)
     panneauGauche.append(logoAccueil)
 
     const panneauDroite: HTMLDivElement = document.createElement('div')

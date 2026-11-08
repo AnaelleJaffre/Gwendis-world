@@ -28,6 +28,10 @@ function lireSceneSauvegardee(): string {
     return IDENTIFIANT_SCENE_DEPART
 }
 
+function retournerAccueil(): void {
+    afficherScene(IDENTIFIANT_SCENE_DEPART)
+}
+
 // Rendu : header, scene
-app.append(Header(), conteneurScene)
+app.append(Header(retournerAccueil), conteneurScene)
 afficherScene(lireSceneSauvegardee())
