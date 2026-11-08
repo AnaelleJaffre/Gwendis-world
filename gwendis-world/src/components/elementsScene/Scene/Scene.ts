@@ -5,6 +5,7 @@ import './Scene.css'
 
 export function Scene(
   donneesScene: DonneesScene,
+  allerALaScene: (identifiantScene:string) => void,
   hauteur: number = 300,
   largeur: number = 500
 ): HTMLDivElement {
@@ -12,7 +13,7 @@ export function Scene(
   scene.className = 'scene'
   scene.style.width = `${largeur}px`
 
-  const dialogue: Dialogue = new Dialogue(donneesScene.dialogue, donneesScene.identifiantPremiereReplique)
+  const dialogue: Dialogue = new Dialogue(donneesScene.dialogue, donneesScene.identifiantPremiereReplique, allerALaScene)
   scene.append(Decor(donneesScene.elements, hauteur), dialogue.element)
   return scene
 }

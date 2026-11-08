@@ -6,4 +6,8 @@ import donnees from './histoire.json'
 const histoire: Histoire = donnees
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.append(Scene(histoire.scene1))
+function afficherScene(identifiantScene: string): void {
+    app.replaceChildren(Scene(histoire[identifiantScene], afficherScene))
+}
+
+afficherScene('introduction')

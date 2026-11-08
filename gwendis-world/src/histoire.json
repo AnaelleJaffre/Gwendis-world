@@ -1,5 +1,5 @@
 {
-  "scene1": {
+  "introduction": {
     "identifiantPremiereReplique": "debutHisoire",
     "elements": [
       { "type": "arbre", "x": 50, "y": 30 },
@@ -14,8 +14,30 @@
           { "texte": "Non.", "identifiantRepliqueSuivante": "vousAllezPasBien" }
         ]
       },
-      "vousAllezBien": { "texte": "Je m'en fous." },
-      "vousAllezPasBien": { "texte": "Super, on est deux." }
+      "vousAllezBien": {
+        "texte": "Je m'en fous.",
+        "choix": [{ "texte": "Partir", "identifiantSceneSuivante": "baladeJoviale" }]
+      },
+      "vousAllezPasBien": { "texte": "Super, on est deux.", "choix": [] }
+    }
+  },
+  "baladeJoviale": {
+    "identifiantPremiereReplique": "debutBaladeJoviale",
+    "elements": [
+      { "type": "arbre", "x": 350, "y": 30 },
+      { "type": "arbre", "x": 310, "y": 33 },
+      { "type": "arbre", "x": 360, "y": 38 },
+      { "type": "arbre", "x": 300, "y": 25 },
+      { "type": "arbre", "x": 200, "y": 31 },
+      { "type": "arbre", "x": 80, "y": 31 },
+      { "type": "arbre", "x": 40, "y": 25 },
+      { "type": "gwendi", "x": 120, "y": 25 }
+    ],
+    "dialogue": {
+      "debutBaladeJoviale": {
+        "texte": "Vous décidez de vous balader en forêt.",
+        "choix": []
+      }
     }
   }
 }
