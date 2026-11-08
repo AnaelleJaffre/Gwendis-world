@@ -30,8 +30,9 @@ npm run deploy
 ```
 
 ## Prochaines étapes
-1. Préparer un mini scénario.
-2. Construire une page d'accueil / d'accroche.
-3. Importer un premier son de fond.
-4. Créer une interface de création d'histoire.
-5. Mettre en place une modification automatique du z-index des éléments du décor, en fonction de leur placement depuis bottom, pour que les objets les plus bas soient toujours devant.
+1. Gérer le responsive pour les éléments du décor : mettre des % au lieu de valeurs en px.
+2. Préparer un mini scénario.
+3. Construire une page d'accueil / d'accroche.
+4. Importer un premier son de fond.
+5. Créer une interface de création d'histoire.
+6. Mettre en place une modification automatique du z-index des éléments du décor, en fonction de leur placement depuis bottom, pour que les objets les plus bas soient toujours devant.

@@ -4,6 +4,11 @@ header {
     align-items: center;
     padding: 2vh 6vw;
     justify-self: stretch;
+    
+    h1 {
+        max-width: 40vw;
+        text-align: center;
+    }
 
     .panneau_gauche {
         display: flex;
@@ -13,6 +18,7 @@ header {
         
         .logo_accueil {
             width: 5vw;
+            min-width: 30px;
         }
     }
     

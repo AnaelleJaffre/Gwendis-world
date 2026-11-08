@@ -4,7 +4,7 @@
     "elements": [
       { "type": "arbre", "x": 50, "y": 30 },
       { "type": "arbre", "x": 300, "y": 25 },
-      { "type": "gwendi", "x": 200, "y": 35 }
+      { "type": "gwendi", "x": 120, "y": 35 }
     ],
     "dialogue": {
       "debutHisoire": {
@@ -32,7 +32,7 @@
       { "type": "arbre", "x": 200, "y": 31 },
       { "type": "arbre", "x": 80, "y": 31 },
       { "type": "arbre", "x": 40, "y": 25 },
-      { "type": "gwendi", "x": 120, "y": 25 }
+      { "type": "gwendi", "x": 100, "y": 25 }
     ],
     "dialogue": {
       "debutBaladeJoviale": {

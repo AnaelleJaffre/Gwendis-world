@@ -1,8 +1,9 @@
 .scene {
-    border-radius: 5px;
-    height: fit-content;
-    margin-top: 20vh;
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    width: var(--largeur-scene);
+    height: fit-content;
+    padding: var(--decalage-haut-scene) var(--marge-laterale-scene);
+    border-radius: 5px;
 }

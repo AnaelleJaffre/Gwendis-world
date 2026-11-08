@@ -6,6 +6,22 @@
 :root {
   --bg: #858585;
   --font-color: rgb(53, 53, 53);
+
+  /* Format ordinateur */
+  --decalage-haut-scene: 20vh;
+  --largeur-scene: max(500px, 50vw);
+  --marge-laterale-scene: 10vw;
+  --ratio-decor: 5 / 3;
+}
+
+@media (max-width: 450px) {
+  :root {
+    /* Format telephone */
+    --decalage-haut-scene: 5vh;
+    --largeur-scene: 100%;
+    --marge-laterale-scene: 14vw;
+    --ratio-decor: 5 / 6;
+  }
 }
 
 body {
@@ -19,6 +35,12 @@ body {
     display: grid;
     justify-items: center;
     align-content: start;
+
+    .conteneur_scene {
+      display: grid;
+      justify-items: center;
+      width: 100%;
+    }
   }
 }
 
