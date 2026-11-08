@@ -1,6 +1,26 @@
 header {
     display: grid;
-    justify-content: center;
-    justify-self: stretch;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
     padding: 2vh;
+    justify-self: stretch;
+
+    .panneau_gauche {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5vw;
+        
+        .logo_accueil {
+            width: 4vw;
+        }
+    }
+    
+    .panneau_droite {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5vw;
+    }
+
 }
