@@ -14,6 +14,6 @@ export function Scene(
   scene.style.width = `${largeur}px`
 
   const dialogue: Dialogue = new Dialogue(donneesScene.dialogue, donneesScene.identifiantPremiereReplique, allerALaScene)
-  scene.append(Decor(donneesScene.elements, hauteur), dialogue.element)
+  scene.append(Decor(donneesScene.elements, hauteur, largeur, donneesScene.densiteHerbe), dialogue.element)
   return scene
 }

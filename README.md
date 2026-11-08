@@ -31,8 +31,7 @@ npm run deploy
 
 ## Prochaines étapes
 1. Préparer un mini scénario.
-2. Mettre en place une architecture adaptée à ce que peut faire le personnage et l'accomplissement de son but.
-3. Importer une police d'écriture.
-4. Construire une page d'accueil / d'accroche.
-5. Importer un premier son de fond.
-6. Créer une interface de création d'histoire.
+2. Construire une page d'accueil / d'accroche.
+3. Importer un premier son de fond.
+4. Créer une interface de création d'histoire.
+5. Mettre en place une modification automatique du z-index des éléments du décor, en fonction de leur placement depuis bottom, pour que les objets les plus bas soient toujours devant.

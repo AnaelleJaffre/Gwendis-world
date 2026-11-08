@@ -19,7 +19,8 @@
         "choix": [{ "texte": "Partir", "identifiantSceneSuivante": "baladeJoviale" }]
       },
       "vousAllezPasBien": { "texte": "Super, on est deux.", "choix": [] }
-    }
+    },
+    "densiteHerbe": "peu"
   },
   "baladeJoviale": {
     "identifiantPremiereReplique": "debutBaladeJoviale",
@@ -38,6 +39,7 @@
         "texte": "Vous décidez de vous balader en forêt.",
         "choix": []
       }
-    }
+    },
+    "densiteHerbe": "beaucoup"
   }
 }

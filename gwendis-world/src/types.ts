@@ -13,5 +13,7 @@ export type DonneesScene = {
     elements: ElementDecor[]
     dialogue: DonneesDialogue
     identifiantPremiereReplique: string
+    densiteHerbe: Densite
 }
 export type Histoire = Record<string, DonneesScene>
+export type Densite = 'peu' | 'normal' | 'beaucoup'
