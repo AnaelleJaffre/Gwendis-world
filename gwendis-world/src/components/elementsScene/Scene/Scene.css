@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 2vh;
     width: var(--largeur-scene);
+    max-width: 100%;
     height: fit-content;
     padding: var(--decalage-haut-scene) var(--marge-laterale-scene);
     border-radius: 5px;

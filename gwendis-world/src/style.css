@@ -8,16 +8,16 @@
   --font-color: rgb(53, 53, 53);
 
   /* Format ordinateur */
-  --decalage-haut-scene: 20vh;
-  --largeur-scene: max(500px, 50vw);
+  --decalage-haut-scene: 10vh;
+  --largeur-scene: max(700px, 60vw);
   --marge-laterale-scene: 10vw;
   --ratio-decor: 5 / 3;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   :root {
     /* Format telephone */
-    --decalage-haut-scene: 5vh;
+    --decalage-haut-scene: 2vh;
     --largeur-scene: 100%;
     --marge-laterale-scene: 14vw;
     --ratio-decor: 5 / 6;
@@ -33,11 +33,13 @@ body {
   
   #app {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     justify-items: center;
     align-content: start;
-
+    
     .conteneur_scene {
       display: grid;
+      grid-template-columns: minmax(0, 1fr);
       justify-items: center;
       width: 100%;
     }

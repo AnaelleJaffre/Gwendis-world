@@ -19,6 +19,7 @@ header {
         .logo_accueil {
             width: 5vw;
             min-width: 30px;
+            max-width: 40px;
         }
     }
     
