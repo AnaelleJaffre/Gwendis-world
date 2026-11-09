@@ -21,7 +21,8 @@
       "vousAllezPasBien": { "texte": "Super, on est deux.", "choix": [] }
     },
     "densiteHerbe": "peu",
-    "densiteNuage": "peu"
+    "densiteNuage": "peu",
+    "densiteAir": "peu"
   },
   "baladeJoviale": {
     "identifiantPremiereReplique": "debutBaladeJoviale",
@@ -42,6 +43,7 @@
       }
     },
     "densiteHerbe": "beaucoup",
-    "densiteNuage": "peu"
+    "densiteNuage": "peu",
+    "densiteAir": "normal"
   }
 }
