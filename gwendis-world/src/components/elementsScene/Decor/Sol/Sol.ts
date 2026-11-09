@@ -3,9 +3,9 @@ import { Herbe } from '../../elementsDecor/objets/Herbe/Herbe'
 import type { Densite } from '../../../../types'
 
 const FACTEUR_DENSITE: Record<Densite, number> = {
-    peu: 8,
+    peu: 0,
     normal: 25,
-    beaucoup: 50
+    beaucoup: 60
 }
 
 export function Sol(densite: Densite): HTMLDivElement {
