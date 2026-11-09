@@ -14,6 +14,7 @@ export type DonneesScene = {
     dialogue: DonneesDialogue
     identifiantPremiereReplique: string
     densiteHerbe: Densite
+    densiteNuage: Densite
 }
 export type Histoire = Record<string, DonneesScene>
 export type Densite = 'peu' | 'normal' | 'beaucoup'

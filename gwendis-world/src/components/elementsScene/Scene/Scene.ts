@@ -11,6 +11,6 @@ export function Scene(
   scene.className = 'scene'
 
   const dialogue: Dialogue = new Dialogue(donneesScene.dialogue, donneesScene.identifiantPremiereReplique, allerALaScene)
-  scene.append(Decor(donneesScene.elements, donneesScene.densiteHerbe), dialogue.element)
+  scene.append(Decor(donneesScene.elements, donneesScene.densiteHerbe, donneesScene.densiteNuage), dialogue.element)
   return scene
 }
