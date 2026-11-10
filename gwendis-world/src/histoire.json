@@ -18,7 +18,10 @@
         "texte": "Je m'en fous.",
         "choix": [{ "texte": "Partir", "identifiantSceneSuivante": "baladeJoviale" }]
       },
-      "vousAllezPasBien": { "texte": "Super, on est deux.", "choix": [] }
+      "vousAllezPasBien": {
+        "texte": "Super, on est deux.",
+        "choix": [{ "texte": "Et tout le monde sait que...", "identifiantSceneSuivante": "etreDeux"}]
+      }
     },
     "densiteHerbe": "peu",
     "densiteNuage": "peu",
@@ -45,5 +48,27 @@
     "densiteHerbe": "beaucoup",
     "densiteNuage": "peu",
     "densiteAir": "normal"
+  },
+  "etreDeux": {
+    "identifiantPremiereReplique": "etreDeuxaDeux",
+    "elements": [
+      { "type": "maisonGwendi", "x": 150, "y": 30 },
+      { "type": "arbre", "x": 350, "y": 13 },
+      { "type": "arbre", "x": 40, "y": 25 },
+      { "type": "gwendi", "x": 100, "y": 25 }
+    ],
+    "dialogue": {
+      "etreDeuxaDeux": {
+        "texte": "C'est toujours plus sympa, à deux..",
+        "choix": [{ "texte": "Attendez, c'est là que j'habite ?", "identifiantRepliqueSuivante": "cestLaQuejHabite"}]
+      },
+      "cestLaQuejHabite": {
+        "texte": "Ah oui oui. Ne pleurez pas, c'est moi qui l'ai dessinée.",
+        "choix": []
+      }
+    },
+    "densiteHerbe": "peu",
+    "densiteNuage": "normal",
+    "densiteAir": "peu"
   }
 }
