@@ -14,9 +14,9 @@ export function Decor(
   const decor = document.createElement('div')
   decor.className = 'decor'
   decor.append(
-    Sol(densiteHerbe),
     Ciel(densiteNuage),
     Air(densiteAir),
-    ...elements.map(({ type, x, y }) => composants[type](x, y)))
+    ...elements.map(({ type, x, y }) => composants[type](x, y)),
+    Sol(densiteHerbe))
   return decor
 }
