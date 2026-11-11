@@ -1,18 +1,18 @@
-import urlEtoileGif from '../../../assets/images/indications/etoile.gif'
-import urlEtoile from '../../../assets/images/indications/etoile.png'
+import EtoileGifURL from '../../../assets/images/indications/etoile.gif'
+import EtoileURL from '../../../assets/images/indications/etoile.png'
 
 export function Etoile(): HTMLImageElement {
   const image: HTMLImageElement = document.createElement('img')
-  image.src = urlEtoile
+  image.src = EtoileURL
   image.alt = 'Etoile'
 
   image.addEventListener('mouseenter', (): void => {
-    image.src = urlEtoileGif
+    image.src = EtoileGifURL
     image.style.cursor = "pointer"
   })
 
   image.addEventListener('mouseleave', (): void => {
-    image.src = urlEtoile
+    image.src = EtoileURL
   })
 
   return image
