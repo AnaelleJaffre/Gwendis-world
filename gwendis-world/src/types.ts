@@ -19,3 +19,5 @@ export type DonneesScene = {
 }
 export type Histoire = Record<string, DonneesScene>
 export type Densite = 'peu' | 'normal' | 'beaucoup'
+export type Sens = 'droite' | 'gauche' | 'face'
+export type LongueurLumieres = 'tresLong' | 'long' | 'moyen' | 'court' | 'tresCourt'
