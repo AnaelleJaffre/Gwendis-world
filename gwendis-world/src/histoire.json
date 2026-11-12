@@ -6,7 +6,7 @@
       { "type": "arbre", "x": 300, "y": 25 },
       { "type": "lanterne", "x": 400, "y": 25 },
       { "type": "lanternesDecorees", "x": 35, "y": 25 },
-      { "type": "gwendi", "x": 200, "y": 35 }
+      { "type": "gwendi", "x": 200, "y": 25 }
     ],
     "dialogue": {
       "debutHisoire": {

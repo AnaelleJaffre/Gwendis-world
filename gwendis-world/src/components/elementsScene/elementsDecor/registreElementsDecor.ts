@@ -17,13 +17,20 @@ import { ParticuleAir } from "./objets/ParticuleAir/ParticuleAir";
 import { PointExclamation } from "./objets/Reactions/PointExclamation";
 import { PointInterrogation } from "./objets/Reactions/PointInterrogation";
 import { PointSuspension } from "./objets/Reactions/PointsSuspension";
+import { BigMosieur } from "./personnages/BigMosieur";
+import { Boris } from "./personnages/Boris/Boris";
+import { Dave } from "./personnages/Dave";
+import { Giselle } from "./personnages/Giselle/Giselle";
 import { Gwendi } from "./personnages/Gwendi/Gwendi";
+import { Mimi } from "./personnages/Mimi";
+import { Mosieur } from "./personnages/Mosieur/Mosieur";
+import { Yves } from "./personnages/Yves";
 
 export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
+    gwendi: Gwendi,
     arbre: Arbre,
     nuage: Nuage,
     particuleAir: ParticuleAir,
-    gwendi: Gwendi,
     poste: Poste,
     maisonGwendi: MaisonGwendi,
     maisonPrecheur: MaisonPrecheur,
@@ -39,5 +46,12 @@ export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     panneauInconnu: PanneauInconnu,
     pleinDePanneaux: PleinDePanneaux,
     pomme: Pomme,
-    verre: Verre
+    verre: Verre,
+    giselle: Giselle,
+    mimi: Mimi,
+    mosieur: Mosieur,
+    bigMosieur: BigMosieur,
+    yves: Yves,
+    boris: Boris,
+    dave: Dave
 }
