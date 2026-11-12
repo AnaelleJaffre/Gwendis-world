@@ -2,9 +2,11 @@
   "introduction": {
     "identifiantPremiereReplique": "debutHisoire",
     "elements": [
-      { "type": "arbre", "x": 50, "y": 30 },
+      { "type": "arbre", "x": 20, "y": 30 },
       { "type": "arbre", "x": 300, "y": 25 },
-      { "type": "gwendi", "x": 120, "y": 35 }
+      { "type": "lanterne", "x": 400, "y": 25 },
+      { "type": "lanternesDecorees", "x": 35, "y": 25 },
+      { "type": "gwendi", "x": 200, "y": 35 }
     ],
     "dialogue": {
       "debutHisoire": {
