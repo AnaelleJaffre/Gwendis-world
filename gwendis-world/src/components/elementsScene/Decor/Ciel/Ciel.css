@@ -1,4 +1,6 @@
 .ciel {
+    position: absolute;
     top: 0;
-    height: 42%;
+    left: 0;
+    height: 40%;
 }

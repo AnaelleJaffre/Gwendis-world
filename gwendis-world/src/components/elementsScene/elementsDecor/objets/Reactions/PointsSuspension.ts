@@ -5,7 +5,7 @@ export function PointSuspension(x:number, y:number): HTMLImageElement {
   image.src = PointSuspensionURL
   image.alt = 'Points de suspension'
   image.className = 'element_decor'
-  image.style.left = `${x}px`
-  image.style.bottom = `${y}px`
+  image.style.left = `${x}%`
+  image.style.bottom = `${y}%`
   return image
 }

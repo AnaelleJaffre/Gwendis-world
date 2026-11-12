@@ -5,8 +5,8 @@ export function MaisonGwendi(x: number, y: number): HTMLImageElement {
   image.src = MaisonDeGwendi
   image.alt = 'Maison de Gwendi'
   image.className = 'element_decor'
-  image.style.left = `${x}px`
-  image.style.bottom = `${y}px`
+  image.style.left = `${x}%`
+  image.style.bottom = `${y}%`
 
   image.addEventListener('mouseenter', (): void => {
     image.style.cursor = "pointer"

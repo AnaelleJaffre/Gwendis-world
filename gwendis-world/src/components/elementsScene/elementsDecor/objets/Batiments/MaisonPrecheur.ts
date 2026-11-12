@@ -5,7 +5,7 @@ export function MaisonPrecheur(x:number, y:number): HTMLImageElement {
   image.src = MaisonDuPrecheur
   image.alt = 'Maison du Prêcheur'
   image.className = 'element_decor'
-  image.style.left = `${x}px`
-  image.style.bottom = `${y}px`
+  image.style.left = `${x}%`
+  image.style.bottom = `${y}%`
   return image
 }

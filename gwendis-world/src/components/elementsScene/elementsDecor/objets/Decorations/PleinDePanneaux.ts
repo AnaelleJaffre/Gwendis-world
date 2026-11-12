@@ -5,7 +5,7 @@ export function PleinDePanneaux(x:number, y:number): HTMLImageElement {
   image.src = PleinDePanneauxURL
   image.alt = 'Plein de panneaux'
   image.className = 'element_decor'
-  image.style.left = `${x}px`
-  image.style.bottom = `${y}px`
+  image.style.left = `${x}%`
+  image.style.bottom = `${y}%`
   return image
 }

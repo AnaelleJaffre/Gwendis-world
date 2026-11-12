@@ -5,7 +5,7 @@ export function Yves(x: number, y: number): HTMLImageElement {
   img.src = YvesURL
   img.alt = 'Yves'
   img.className = 'element_decor'
-  img.style.left = `${x}px`
-  img.style.bottom = `${y}px`
+  img.style.left = `${x}%`
+  img.style.bottom = `${y}%`
   return img
 }

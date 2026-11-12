@@ -3,9 +3,9 @@ import { Nuage } from '../../elementsDecor/objets/Nuage/Nuage'
 import type { Densite } from '../../../../types'
 
 const FACTEUR_DENSITE: Record<Densite, number> = {
-    peu: 2,
-    normal: 6,
-    beaucoup: 15
+    peu: 1,
+    normal: 3,
+    beaucoup: 5
 }
 
 export function Ciel(densite: Densite): HTMLDivElement {
