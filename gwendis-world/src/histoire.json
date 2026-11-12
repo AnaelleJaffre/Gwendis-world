@@ -2,11 +2,11 @@
   "introduction": {
     "identifiantPremiereReplique": "debutHisoire",
     "elements": [
-      { "type": "arbre", "x": 20, "y": 30 },
-      { "type": "arbre", "x": 300, "y": 25 },
-      { "type": "lanterne", "x": 400, "y": 25 },
-      { "type": "lanternesDecorees", "x": 35, "y": 25 },
-      { "type": "gwendi", "x": 200, "y": 25 }
+      { "type": "arbre", "x": 20, "y": 3 },
+      { "type": "arbre", "x": 80, "y": 5 },
+      { "type": "lanterne", "x": 20, "y": 5 },
+      { "type": "lanternesDecorees", "x": 75, "y": 5 },
+      { "type": "gwendi", "x": 45, "y": 5 }
     ],
     "dialogue": {
       "debutHisoire": {
@@ -32,14 +32,14 @@
   "baladeJoviale": {
     "identifiantPremiereReplique": "debutBaladeJoviale",
     "elements": [
-      { "type": "arbre", "x": 350, "y": 30 },
-      { "type": "arbre", "x": 310, "y": 33 },
-      { "type": "arbre", "x": 360, "y": 38 },
-      { "type": "arbre", "x": 300, "y": 25 },
-      { "type": "arbre", "x": 200, "y": 31 },
-      { "type": "arbre", "x": 80, "y": 31 },
-      { "type": "arbre", "x": 40, "y": 25 },
-      { "type": "gwendi", "x": 100, "y": 25 }
+      { "type": "arbre", "x": 50, "y": 10 },
+      { "type": "arbre", "x": 10, "y": 13 },
+      { "type": "arbre", "x": 60, "y": 8 },
+      { "type": "arbre", "x": 20, "y": 15 },
+      { "type": "arbre", "x": 80, "y": 11 },
+      { "type": "arbre", "x": 90, "y": 11 },
+      { "type": "arbre", "x": 40, "y": 15 },
+      { "type": "gwendi", "x": 25, "y": 11 }
     ],
     "dialogue": {
       "debutBaladeJoviale": {
@@ -54,10 +54,10 @@
   "etreDeux": {
     "identifiantPremiereReplique": "etreDeuxaDeux",
     "elements": [
-      { "type": "maisonGwendi", "x": 150, "y": 30 },
-      { "type": "arbre", "x": 350, "y": 13 },
-      { "type": "arbre", "x": 40, "y": 25 },
-      { "type": "gwendi", "x": 100, "y": 25 }
+      { "type": "maisonGwendi", "x": 70, "y": 10 },
+      { "type": "arbre", "x": 80, "y": 2 },
+      { "type": "arbre", "x": 10, "y": 5 },
+      { "type": "gwendi", "x": 20, "y": 5 }
     ],
     "dialogue": {
       "etreDeuxaDeux": {
