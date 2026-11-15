@@ -25,6 +25,7 @@ import { Gwendi } from "./personnages/Gwendi/Gwendi";
 import { Mimi } from "./personnages/Mimi";
 import { Mosieur } from "./personnages/Mosieur/Mosieur";
 import { Yves } from "./personnages/Yves";
+import { FondMaisonPrecheur } from "./fonds/FondMaisonPrecheur";
 
 export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     gwendi: Gwendi,
@@ -34,6 +35,7 @@ export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     poste: Poste,
     maisonGwendi: MaisonGwendi,
     maisonPrecheur: MaisonPrecheur,
+    fondMaisonPrecheur: FondMaisonPrecheur,
     pointExclamation: PointExclamation,
     pointsuspension: PointSuspension,
     pointInterrogation: PointInterrogation,
