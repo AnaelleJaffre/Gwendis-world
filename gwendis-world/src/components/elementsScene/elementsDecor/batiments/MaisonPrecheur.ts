@@ -1,4 +1,4 @@
-import MaisonDuPrecheur from '../../../../../assets/images/batiments/maison_du_precheur.png'
+import MaisonDuPrecheur from '../../../../assets/images/batiments/maison_du_precheur.png'
 
 export function MaisonPrecheur(x:number, y:number): HTMLImageElement {
   const image: HTMLImageElement = document.createElement('img')

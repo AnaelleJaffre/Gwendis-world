@@ -1,7 +1,7 @@
 import { Arbre } from "./objets/Arbre/Arbre";
-import { MaisonGwendi } from "./objets/Batiments/MaisonGwendi";
-import { MaisonPrecheur } from "./objets/Batiments/MaisonPrecheur";
-import { Poste } from "./objets/Batiments/Poste";
+import { MaisonGwendi } from "./batiments/MaisonGwendi";
+import { MaisonPrecheur } from "./batiments/MaisonPrecheur";
+import { Poste } from "./batiments/Poste";
 import { BoiteAuxLettres } from "./objets/Decorations/BoiteAuxLettres";
 import { Lanterne } from "./objets/Decorations/Lanterne";
 import { LanternesDecorees } from "./objets/Decorations/LanternesDecorees";

@@ -1,4 +1,4 @@
-import MaisonDeGwendi from '../../../../../assets/images/batiments/maison_de_gwendi.png'
+import MaisonDeGwendi from '../../../../assets/images/batiments/maison_de_gwendi.png'
 
 export function MaisonGwendi(x: number, y: number): HTMLImageElement {
   const image: HTMLImageElement = document.createElement('img')

@@ -1,4 +1,4 @@
-import ImagePoste from '../../../../../assets/images/batiments/poste.png'
+import ImagePoste from '../../../../assets/images/batiments/poste.png'
 
 export function Poste(x:number, y:number): HTMLImageElement {
   const image: HTMLImageElement = document.createElement('img')
