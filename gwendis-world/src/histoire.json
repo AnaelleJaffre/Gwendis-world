@@ -12,12 +12,12 @@
       "debutHisoire": {
         "texte": "Vous, c'est Gwendi. Bonjour, Gwendi. Vous allez bien ?",
         "choix": [
-          { "texte": "Ouai ouai", "identifiantRepliqueSuivante": "vousAllezBien" },
+          { "texte": "Bien sûr", "identifiantRepliqueSuivante": "vousAllezBien" },
           { "texte": "Non.", "identifiantRepliqueSuivante": "vousAllezPasBien" }
         ]
       },
       "vousAllezBien": {
-        "texte": "Je m'en fous.",
+        "texte": "Le narrateur vous informe que votre réponse a bien été prise en compte. Cependant, \"aller bien\" ne va pas vous être utile ici.",
         "choix": [{ "texte": "Partir", "identifiantSceneSuivante": "baladeJoviale" }]
       },
       "vousAllezPasBien": {
@@ -44,7 +44,37 @@
     ],
     "dialogue": {
       "debutBaladeJoviale": {
-        "texte": "Vous décidez de vous balader en forêt.",
+        "texte": "Vous avez raison de vouloir partir. Vous décidez de vous balader en forêt. La forêt, c'est cool.",
+        "choix": [{ "texte": "Pourquoi ?", "identifiantRepliqueSuivante": "pourquoiLaForetCestCool"},
+        { "texte": "Oui, c'est cool.", "identifiantRepliqueSuivante": "laFOretCestCool"}]
+      },
+      "pourquoiLaForetCestCool": {
+        "texte": "Mais parce qu'il y a plein d'arbres, et que les arbres, c'est cool. Ça donne de l'oxygène gratuit.",
+        "choix": [{ "texte": "Ah", "identifiantRepliqueSuivante": "ah"}]
+      },
+      "ah": {
+        "texte": "On n'y pense pas souvent mais, dans 20, 30 ans, y'en aura plus.",
+        "choix": [{ "texte": "... De l'eau ?", "identifiantRepliqueSuivante": "deLeau"}]
+      },
+      "deLeau": {
+        "texte": "Non, du pain.",
+        "choix": [{ "texte": "Euh... ", "identifiantRepliqueSuivante": "duPain"}]
+      },
+      "duPain": {
+        "texte": "Mais oui, de l'eau ! Bon, je vous ferai remarquer que nous parlions d'oxygène, initialement.",
+        "choix": [{ "texte": "Ah oui", "identifiantRepliqueSuivante": "ahOui"},
+        { "texte": "Initialement.", "identifiantRepliqueSuivante": "ahOui"}]
+      },
+      "ahOui": {
+        "texte": "Nice.",
+        "choix": [{ "texte": "Marseille", "identifiantRepliqueSuivante": "marseille"}]
+      },
+      "marseille": {
+        "texte": "MARSEEEILLE !",
+        "choix": []
+      },
+      "laFOretCestCool": {
+        "texte": "C'est vraiment cool.",
         "choix": []
       }
     },
