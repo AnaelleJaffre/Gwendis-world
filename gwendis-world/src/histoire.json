@@ -25,6 +25,7 @@
         "choix": [{ "texte": "Et tout le monde sait que...", "identifiantSceneSuivante": "etreDeux"}]
       }
     },
+    "densiteSol": "normal",
     "densiteHerbe": "peu",
     "densiteNuage": "peu",
     "densiteAir": "peu"
@@ -47,6 +48,7 @@
         "choix": []
       }
     },
+    "densiteSol": "peu",
     "densiteHerbe": "beaucoup",
     "densiteNuage": "peu",
     "densiteAir": "normal"
@@ -69,6 +71,7 @@
         "choix": []
       }
     },
+    "densiteSol": "peu",
     "densiteHerbe": "peu",
     "densiteNuage": "normal",
     "densiteAir": "peu"

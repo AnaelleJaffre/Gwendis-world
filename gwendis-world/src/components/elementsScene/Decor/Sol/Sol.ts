@@ -1,22 +1,22 @@
 import './Sol.css'
-import { Herbe } from '../../elementsDecor/objets/Herbe/Herbe'
+import { RainureSol } from '../../elementsDecor/objets/RainureSol/RainureSol'
 import type { Densite } from '../../../../types'
 
 const FACTEUR_DENSITE: Record<Densite, number> = {
     peu: 0,
-    normal: 25,
-    beaucoup: 60
+    normal: 2,
+    beaucoup: 4
 }
 
 export function Sol(densite: Densite): HTMLDivElement {
     const sol: HTMLDivElement = document.createElement('div')
     sol.className = 'sol'
 
-    for (let numeroBrin: number = 0; numeroBrin < FACTEUR_DENSITE[densite]; numeroBrin++) {
-       const brin: HTMLElement = Herbe(0, 0)
-       brin.style.left = `${Math.random() * 100}%`
-       brin.style.bottom = `${Math.random() * 100}%`
-       sol.append(brin)
+    for (let numeroRainure: number = 0; numeroRainure < FACTEUR_DENSITE[densite]; numeroRainure++) {
+       const rainure: HTMLElement = RainureSol(0, 0)
+       rainure.style.left = `${Math.random() * 100}%`
+       rainure.style.bottom = `${Math.random() * 100}%`
+       sol.append(rainure)
     }
 
     return sol

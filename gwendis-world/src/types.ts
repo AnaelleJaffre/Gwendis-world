@@ -13,6 +13,7 @@ export type DonneesScene = {
     elements: ElementDecor[]
     dialogue: DonneesDialogue
     identifiantPremiereReplique: string
+    densiteSol: Densite
     densiteHerbe: Densite
     densiteNuage: Densite
     densiteAir: Densite
