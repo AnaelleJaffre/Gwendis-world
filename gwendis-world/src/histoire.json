@@ -98,12 +98,29 @@
       },
       "cestLaQuejHabite": {
         "texte": "Ah oui oui. Ne pleurez pas, c'est moi qui l'ai dessinée.",
-        "choix": []
+        "choix": [{"texte": "Je préfère la maison du Prêcheur.", "identifiantSceneSuivante": "entrerDansMaisonPrecheur"}]
       }
     },
     "densiteSol": "peu",
     "densiteHerbe": "peu",
     "densiteNuage": "normal",
+    "densiteAir": "peu"
+  },
+  "entrerDansMaisonPrecheur": {
+    "identifiantPremiereReplique": "waouh",
+    "elements": [
+      { "type": "fondMaisonPrecheur", "x": 50, "y": -18 },
+      { "type": "gwendi", "x": 20, "y": 5 }
+    ],
+    "dialogue": {
+      "waouh": {
+        "texte": "Waouh, c'est solaire par ici. Sympa, hein ?",
+        "choix": []
+      }
+    },
+    "densiteSol": "normal",
+    "densiteHerbe": "peu",
+    "densiteNuage": "peu",
     "densiteAir": "peu"
   }
 }
