@@ -26,6 +26,10 @@ import { Mimi } from "./personnages/Mimi";
 import { Mosieur } from "./personnages/Mosieur/Mosieur";
 import { Yves } from "./personnages/Yves";
 import { FondMaisonPrecheur } from "./fonds/FondMaisonPrecheur";
+import { TableBasse } from "./objets/Decorations/TableBasse";
+import { Cheminee } from "./objets/Decorations/Cheminee";
+import { Horloge } from "./objets/Decorations/Horloge";
+import { BouleVoyante } from "./objets/Decorations/BouleVoyante";
 
 export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     gwendi: Gwendi,
@@ -47,6 +51,10 @@ export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     panneauGauche: PanneauGauche,
     panneauInconnu: PanneauInconnu,
     pleinDePanneaux: PleinDePanneaux,
+    tableBasse: TableBasse,
+    cheminee: Cheminee,
+    horloge: Horloge,
+    bouleVoyante: BouleVoyante,
     pomme: Pomme,
     verre: Verre,
     giselle: Giselle,
