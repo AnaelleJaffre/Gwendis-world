@@ -3,7 +3,7 @@ import { indexerUrlsParNom } from '../../../../utils/indexerURLsParNom';
 import './Fond.css'
 
 const URL_FOND_PAR_NOM: Record<string, string> = indexerUrlsParNom(
-    import.meta.glob<string>('/src/assets/images/fonds/*.{png, jpg, jpeg, webp}', {
+    import.meta.glob<string>('/src/assets/images/fonds/*.{png,jpg,jpeg,webp}', {
         eager: true,
         import: 'default',
     })
