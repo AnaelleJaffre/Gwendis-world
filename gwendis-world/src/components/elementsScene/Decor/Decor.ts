@@ -3,7 +3,8 @@ import { composants } from '../elementsDecor/registreElementsDecor'
 import { Sol } from './Sol/Sol'
 import { Ciel } from './Ciel/Ciel'
 import { Air } from './Air/Air'
-import type { Densite, ElementDecor } from '../../../types'
+import { Fond } from './Fond/Fond'
+import type { Densite, ElementDecor, NomFond } from '../../../types'
 import { Gazon } from './Gazon/Gazon'
 
 export function Decor(
@@ -11,10 +12,16 @@ export function Decor(
   densiteSol: Densite,
   densiteHerbe: Densite,
   densiteNuage: Densite,
-  densiteAir: Densite
+  densiteAir: Densite,
+  fond?: NomFond
 ): HTMLDivElement {
   const decor = document.createElement('div')
   decor.className = 'decor'
+
+  if (fond !== undefined) {
+    decor.append(Fond(fond))
+  }
+
   decor.append(
     Sol(densiteSol),
     Ciel(densiteNuage),

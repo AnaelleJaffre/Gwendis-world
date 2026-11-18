@@ -25,7 +25,6 @@ import { Gwendi } from "./personnages/Gwendi/Gwendi";
 import { Mimi } from "./personnages/Mimi";
 import { Mosieur } from "./personnages/Mosieur/Mosieur";
 import { Yves } from "./personnages/Yves";
-import { FondMaisonPrecheur } from "./fonds/FondMaisonPrecheur";
 import { TableBasse } from "./objets/Decorations/TableBasse";
 import { Cheminee } from "./objets/Decorations/Cheminee";
 import { Horloge } from "./objets/Decorations/Horloge";
@@ -33,16 +32,23 @@ import { BouleVoyante } from "./objets/Decorations/BouleVoyante";
 
 export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     gwendi: Gwendi,
+
+    // Elements constitution ciel, air, sol
     arbre: Arbre,
     nuage: Nuage,
     particuleAir: ParticuleAir,
+
+    // Batiments
     poste: Poste,
     maisonGwendi: MaisonGwendi,
     maisonPrecheur: MaisonPrecheur,
-    fondMaisonPrecheur: FondMaisonPrecheur,
+
+    // Reactions
     pointExclamation: PointExclamation,
     pointsuspension: PointSuspension,
     pointInterrogation: PointInterrogation,
+
+    // Objets
     boiteAuxLettres: BoiteAuxLettres,
     lanterne: Lanterne,
     lanternesDecorees: LanternesDecorees,
@@ -57,6 +63,8 @@ export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     bouleVoyante: BouleVoyante,
     pomme: Pomme,
     verre: Verre,
+
+    // Personnages
     giselle: Giselle,
     mimi: Mimi,
     mosieur: Mosieur,

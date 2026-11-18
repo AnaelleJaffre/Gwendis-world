@@ -109,7 +109,8 @@
   "entrerDansMaisonPrecheur": {
     "identifiantPremiereReplique": "waouh",
     "elements": [
-      { "type": "fondMaisonPrecheur", "x": 50, "y": -18 },
+      { "type": "tableBasse", "x": 66, "y": 10 },
+      { "type": "bouleVoyante", "x": 65, "y": 18 },
       { "type": "gwendi", "x": 20, "y": 5 }
     ],
     "dialogue": {
@@ -118,6 +119,7 @@
         "choix": []
       }
     },
+    "fond": "mur_maison_precheur",
     "densiteSol": "normal",
     "densiteHerbe": "peu",
     "densiteNuage": "peu",
