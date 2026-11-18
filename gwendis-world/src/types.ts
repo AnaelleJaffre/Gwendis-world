@@ -8,7 +8,7 @@ export type Replique = {
   choix: Choix[]
 }
 export type DonneesDialogue = Record<string, Replique>
-export type ElementDecor = { type: string; x: number; y: number}
+export type ElementDecor = { type: string; x: number; y: number; nom?: string}
 export type DonneesScene = {
     elements: ElementDecor[]
     dialogue: DonneesDialogue

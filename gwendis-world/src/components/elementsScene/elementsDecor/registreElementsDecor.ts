@@ -29,8 +29,9 @@ import { TableBasse } from "./objets/Decorations/TableBasse";
 import { Cheminee } from "./objets/Decorations/Cheminee";
 import { Horloge } from "./objets/Decorations/Horloge";
 import { BouleVoyante } from "./objets/Decorations/BouleVoyante";
+import { Fenetre } from "./objets/Fenetre/Fenetre";
 
-export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
+export const composants: Record<string, (x:number, y:number, nom?:string) => HTMLElement> = {
     gwendi: Gwendi,
 
     // Elements constitution ciel, air, sol
@@ -63,6 +64,9 @@ export const composants: Record<string, (x:number, y:number) => HTMLElement> = {
     bouleVoyante: BouleVoyante,
     pomme: Pomme,
     verre: Verre,
+
+    // Objets a contenu variable
+    fenetre: Fenetre,
 
     // Personnages
     giselle: Giselle,

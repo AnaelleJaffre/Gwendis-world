@@ -26,7 +26,7 @@ export function Decor(
     Sol(densiteSol),
     Ciel(densiteNuage),
     Air(densiteAir),
-    ...elements.map(({ type, x, y }) => composants[type](x, y)),
+    ...elements.map(({ type, x, y, nom}) => composants[type](x, y, nom)),
     Gazon(densiteHerbe)
   )
   return decor
