@@ -8,8 +8,8 @@
   --font-color: rgb(53, 53, 53);
 
   /* Format ordinateur */
-  --decalage-haut-scene: 10vh;
-  --largeur-scene: max(700px, 60vw);
+  --decalage-haut-scene: 6vh;
+  --largeur-scene: max(750px, 60vw);
   --marge-laterale-scene: 10vw;
   --ratio-decor: 5 / 3;
 }
@@ -17,10 +17,10 @@
 @media (max-width: 550px) {
   :root {
     /* Format telephone */
-    --decalage-haut-scene: 2vh;
+    --decalage-haut-scene: 1vh;
     --largeur-scene: 100%;
     --marge-laterale-scene: 14vw;
-    --ratio-decor: 5 / 6;
+    --ratio-decor: 1;
   }
 }
 
